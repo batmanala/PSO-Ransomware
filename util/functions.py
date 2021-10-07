@@ -12,7 +12,7 @@ def himmelblau(x):
 class Functions_utils:
 
     def __init__(self, train_row, teste_row, columns) -> None:
-        self.dataset = pd.read_csv(r'C:\Users\Edno\Desktop\Work\ALANA\PPSO-master\ransomware.csv')
+        self.dataset = pd.read_csv(r'ransomware.csv')
 
         self.tipo = self.dataset.iloc[:train_row, 1]
         self.dados = self.dataset.iloc[:train_row, 3:columns+3]
