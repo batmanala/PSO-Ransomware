@@ -1,2 +1,2 @@
 # PSO-Ransomware
-Trabalho para cadeira de PSO
+Trabalho final de PSO
